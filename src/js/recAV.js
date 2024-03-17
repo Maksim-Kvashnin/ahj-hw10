@@ -132,6 +132,6 @@ export default class AVrec {
     const second = seconds - minuts * 60;
 
     return `${minuts < 10 ? `0${minuts}` : minuts}:${second < 10 ? `0${second}` : second
-      }`; // eslint-disable-line prefer-template
+    }`; // eslint-disable-line prefer-template
   }
 }
